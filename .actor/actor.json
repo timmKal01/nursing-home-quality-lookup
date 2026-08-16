@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "nursing-home-quality-lookup",
+    "title": "Nursing Home Quality Lookup — CMS Star Ratings",
+    "description": "Search U.S. nursing homes by name or state and get their official CMS 5-star rating (overall, health inspection, staffing, quality measures), ownership, staffing hours, and fines. For families researching care for a loved one.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

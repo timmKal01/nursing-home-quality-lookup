@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Nursing Home Quality Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Facilities",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
