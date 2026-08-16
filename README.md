@@ -79,3 +79,4 @@ the search returns 0 facilities or 100.
 ## Related products
 
 - [Hospital Quality Lookup](https://github.com/timmKal01/hospital-quality-lookup) — the acute-care hospital equivalent, same CMS rating system
+- [Home Health Agency Lookup](https://github.com/timmKal01/home-health-agency-lookup) — the in-home care equivalent, same CMS rating system
