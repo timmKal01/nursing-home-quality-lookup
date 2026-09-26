@@ -1,0 +1,88 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "name",
+                    "city",
+                    "state",
+                    "overallRating",
+                    "healthInspectionRating",
+                    "staffingRating",
+                    "qualityMeasureRating",
+                    "numberOfCertifiedBeds",
+                    "totalNurseStaffingHoursPerResidentPerDay",
+                    "numberOfFines",
+                    "totalFinesAmountUsd",
+                    "abuseIcon",
+                    "phone",
+                    "facilityId"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "name": {
+                        "label": "Name",
+                        "format": "text"
+                    },
+                    "city": {
+                        "label": "City",
+                        "format": "text"
+                    },
+                    "state": {
+                        "label": "State",
+                        "format": "text"
+                    },
+                    "overallRating": {
+                        "label": "Overall rating",
+                        "format": "number"
+                    },
+                    "healthInspectionRating": {
+                        "label": "Health inspection rating",
+                        "format": "number"
+                    },
+                    "staffingRating": {
+                        "label": "Staffing rating",
+                        "format": "number"
+                    },
+                    "qualityMeasureRating": {
+                        "label": "Quality measure rating",
+                        "format": "number"
+                    },
+                    "numberOfCertifiedBeds": {
+                        "label": "Number of certified beds",
+                        "format": "number"
+                    },
+                    "totalNurseStaffingHoursPerResidentPerDay": {
+                        "label": "Total nurse staffing hours per resident per day",
+                        "format": "number"
+                    },
+                    "numberOfFines": {
+                        "label": "Number of fines",
+                        "format": "number"
+                    },
+                    "totalFinesAmountUsd": {
+                        "label": "Total fines amount USD",
+                        "format": "number"
+                    },
+                    "abuseIcon": {
+                        "label": "Abuse icon",
+                        "format": "boolean"
+                    },
+                    "phone": {
+                        "label": "Phone",
+                        "format": "text"
+                    },
+                    "facilityId": {
+                        "label": "Facility ID",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
